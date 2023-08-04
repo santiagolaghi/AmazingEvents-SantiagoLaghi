@@ -34,17 +34,21 @@ footer{
     display: flex;
     justify-content: center;
     text-decoration: none;
+    min-height: 80vh;
+}
+header{
+    min-height: 10vh;
 }
 
 .Buttoncontact{
     width: 5rem; 
 }
 
-.formcontact{
+/*.formcontact{
     width: 50%;
     height: 15rem;
 }
-
+*/
 /*Stats*/
 table{
     width: 90vw;
@@ -87,4 +91,27 @@ th{
 }
 .detailsdiv img{
     object-fit: cover;
+}
+.imagecard{
+    height: 12rem;
+    object-fit: cover;
+}
+.divpya{
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.card-text{
+    min-height: 15vh;
+}
+
+.cardtextp{
+    font-size: 1.5rem;
+    color: rgb(194, 147, 212);
+}
+.botona{
+    margin-bottom: 3.5rem;
 }
