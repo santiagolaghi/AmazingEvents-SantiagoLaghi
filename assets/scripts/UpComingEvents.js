@@ -9,7 +9,7 @@ function crearTarjeta (objeto) {
                     <p class="card-text">${objeto.description}</p>
                     <div class="divpya d-flex justify-content-around align-items-center pt-4">                       
                         <p class="cardtextp card-text">$${objeto.price}</p>
-                        <a class="botona text-decoration-none border border-2 p-1" href="./assets/pages/Details.html" class="btn btn-primary">Details</a>
+                        <a class="botona text-decoration-none border border-2 p-1" href="../pages/Details.html" class="btn btn-primary">Details</a>
                     </div>                  
                 </div>
             </div>`       
